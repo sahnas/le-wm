@@ -44,7 +44,7 @@ Datasets use the HDF5 format for fast loading. Download the data from [HuggingFa
 tar --zstd -xvf archive.tar.zst
 ```
 
-Place the extracted `.h5` files under `$STABLEWM_HOME/datasets/` (defaults to `~/.stable-wm/datasets/`). You can override the root path:
+Place the extracted `.h5` files under `$STABLEWM_HOME/datasets/` (defaults to `~/.stable_worldmodel/datasets/`). You can override the root path:
 ```bash
 export STABLEWM_HOME=/path/to/your/storage
 ```
